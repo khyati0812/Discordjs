@@ -1,5 +1,5 @@
 require("dotenv").config();
-
+const command = require("./command");
 const apitoken = process.env.API_TOKEN;
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const getRandomCat = require("random-cat-img");
